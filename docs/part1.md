@@ -63,6 +63,11 @@ These variables make sure that the camera works on the Pi.
 ```
 npm install --global --production resin-cli
 ```
+ 8. If your device is provisioned on resin staging, you'll need to redirect the CLI:
+ 
+```
+export RESINRC_RESIN_URL=resinstaging.io
+```
 
 While you're waiting for the resinOS image download to finish, you can move on to the next step, which is to get the app running locally.
 
